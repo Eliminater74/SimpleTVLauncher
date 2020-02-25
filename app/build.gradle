@@ -66,7 +66,7 @@ dependencies {
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:" + rootProject.archLifecycleVersion
     annotationProcessor "androidx.room:room-compiler:" + rootProject.archRoomVersion
 
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13'
 
     // Testing-only dependencies
     androidTestImplementation 'androidx.test:runner:' + rootProject.testVersion
@@ -93,8 +93,8 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.0.0-RC1'
     implementation 'androidx.tvprovider:tvprovider:' + rootProject.supportLibVersion
 
-    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
 
     implementation "com.google.dagger:dagger:" + rootProject.daggerVersion
     implementation "com.google.dagger:dagger-android:" + rootProject.daggerVersion
